@@ -5,7 +5,7 @@ const commitRef = process.env.APP_COMMIT_REF || "N/A";
 const buildDate = process.env.APP_BUILD_DATE || new Date().toISOString();
 class App extends Component {
   render() {
-    const text = `We're at commit ${commitRef} which was built at ${buildDate}`;
+    const text = `We're at commit ${commitRef} which was built at ${buildDate} Kubernetes`;
     return (
       <div className="App">
         <header className="App-header">
