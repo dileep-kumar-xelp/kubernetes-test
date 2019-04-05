@@ -6,11 +6,13 @@ const buildDate = process.env.APP_BUILD_DATE || new Date().toISOString();
 class App extends Component {
   render() {
     const text = `We're at commit ${commitRef} which was built at ${buildDate} Kubernetes`;
+    const simpleText = "Deploying test";
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>{text}</p>
+          <p>{simpleText}</p>
           <a
             className="App-link"
             href="https://reactjs.org"

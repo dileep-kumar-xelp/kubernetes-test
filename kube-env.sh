@@ -1,0 +1,7 @@
+export PROJECT_NAME="kubernetes-test"
+export PROJECT_ID="kubernetes-230510"
+export GOOGLE_COMPUTE_ZONE="us-central1-a"
+export GOOGLE_CLUSTER_NAME="standard-cluster-1"
+export CLOUD_PROVIDER="gcloud"
+export GOOGLE_CLUSTER_TYPE="zonal"
+export CLOUD_PROVIDER="gcloud"
